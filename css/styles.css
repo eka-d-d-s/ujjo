@@ -7,7 +7,8 @@ body {
 .container {
   max-width: 1397px;
   width: 100%;
-  
+  margin:0 50px;
+  padding:0 15px;
 }
 .header-row {
     padding:26px 0 26px;
@@ -156,4 +157,33 @@ body {
     margin: 0;
     padding:20px;
     border-top:  1px solid #000;;
+}
+.products__border {
+    display: flex;
+    gap: 51px;
+    align-items: center;
+    padding:  58px 30px;
+    
+}
+.products__title {
+    font-weight: 400;
+    margin: 0;
+    font-size: 65px;
+    line-height: 112%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    max-width: 785px;
+    text-align: center;
+}
+.products__decoration {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    background: url(/img/back_product_img.png);
+    background-size: cover;
+   
+}
+.products__list {
+    display: flex;
 }

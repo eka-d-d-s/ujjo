@@ -180,10 +180,15 @@ body {
     justify-content: space-between;
 }
 .card {
-    background: url(/img/back_product_img.png);
-    background-size: cover;
+    background: url(../img/back_product_img.png);
+    background-size: 500px;
    
 }
 .products__list {
     display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.product__item {
+    list-style: none;
 }

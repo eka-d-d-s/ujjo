@@ -1,18 +1,14 @@
-.body {
+body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing:auto;
     margin: 0;
+    box-sizing: border-box;
 }
 .container {
   max-width: 1397px;
   width: 100%;
   
 }
-.header{
-    position: fixed;
-    width: 100%;
-    
-}    
 .header-row {
     padding:26px 0 26px;
     border: 1px solid #000;
@@ -95,66 +91,52 @@
     padding-left: 17px;
     padding-top: 10px;    
 }
-.first {
-    padding: 120px 0 40px;
-}
-.first-row {
+.hero-row {
     display: flex;
     flex-direction:row;
 }
-.logo-big-white {
-    position: relative;
-    padding: 50px;
-}
-.logo-big-black {
-    content: "";
-    position: absolute;
-    background-position: 100%;
-}
+
 .logo-big {
-    padding: 20px 20px 40px;
     border-bottom: 1px solid #000;
 }
-.first-left {
+.hero-left {
+    width: 50%;
     border: 1px solid #000;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.ticker1 {
-    width: 200%;
-    height: 78px;
+.ticker {
+  overflow: hidden;
+ }
+.ticker__wrapper {
     display: flex;
-    align-items: center;
-    gap: 29px; 
-    animation: ticker1 5s linear infinite; 
+    justify-content: center;
+    gap: 16px;
 }
-.ticker1:hover {
-    animation-play-state: paused;
-}
-
-@keyframes ticker1 {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(50%);
-    }
-}
-
-.ticker1-desc {
+.ticker__item {
+    flex-shrink: 0;
     margin: 0;
     font-size: 17px;
     line-height: 152%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    animation: ticker 5s linear infinite;
 }
-.first-right {
-   border: 1px solid #000; 
+@keyframes ticker {
+    0% {
+        transform: translateZ(0);
+    }
+    to {transform: translate3d(100%,0,0);
+
+    }
 }
-.first-right-desc {
+.hero-right {
+   border: 1px solid #000;
+   width: 50%; 
+}
+.hero-right-desc {
     font-size: 58px;
     line-height: 111%;
     letter-spacing: 0.01em;
@@ -166,11 +148,11 @@
    
 }
 
-.img-first-right {
+.img-hero-right {
     padding: 20px 20px 30px;
     border-top:  1px solid #000;
 }
-.img-first-left {
+.img-hero-left {
     margin: 0;
     padding:20px;
     border-top:  1px solid #000;;

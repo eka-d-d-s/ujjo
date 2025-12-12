@@ -1,17 +1,17 @@
 .body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing:auto;
+    margin: 0;
 }
 .container {
   max-width: 1397px;
   width: 100%;
-  margin: 0;
+  
 }
 .header{
     position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
+    
 }    
 .header-row {
     padding:26px 0 26px;

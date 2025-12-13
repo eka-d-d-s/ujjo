@@ -180,8 +180,10 @@ body {
     padding: 0 50px;
 }
 .card {
+    padding: 0 23px 23px;
     background: url(../img/back_product_img.png);
     background-position: center;
+    background-repeat: no-repeat;
     min-height: 658px;
     display: flex;
     gap: 14px;

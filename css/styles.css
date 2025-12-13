@@ -183,6 +183,11 @@ body {
     background: url(../img/back_product_img.png);
     background-position: center;
     min-height: 658px;
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
 .products__list {
     display: flex;
@@ -199,5 +204,5 @@ body {
 }
 .products__ticker {
     overflow: hidden;
-    p
+    
 }

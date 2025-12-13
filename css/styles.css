@@ -7,8 +7,7 @@ body {
 .container {
   max-width: 1397px;
   width: 100%;
-  margin:0 50px;
-  padding:0 15px;
+  padding:0 100px;
 }
 .header-row {
     padding:26px 0 26px;
@@ -108,7 +107,7 @@ body {
     align-items: center;
     gap: 20px;
 }
-.ticker {
+.hero__ticker {
   overflow: hidden;
  }
 .ticker__wrapper {
@@ -156,7 +155,7 @@ body {
 .img-hero-left {
     margin: 0;
     padding:20px;
-    border-top:  1px solid #000;;
+    border-top:  1px solid #000;
 }
 .products__border {
     display: flex;
@@ -178,11 +177,12 @@ body {
 .products__decoration {
     display: flex;
     justify-content: space-between;
+    padding: 0 50px;
 }
 .card {
     background: url(../img/back_product_img.png);
-    background-size: 500px;
-   
+    background-position: center;
+    min-height: 658px;
 }
 .products__list {
     display: flex;
@@ -191,4 +191,12 @@ body {
 }
 .product__item {
     list-style: none;
+    padding-bottom: 50px;
+    
+}
+.card__title {
+    margin: 0;
+}
+.product__ticker {
+    overflow: hidden;
 }

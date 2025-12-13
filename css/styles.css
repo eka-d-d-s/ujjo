@@ -196,7 +196,7 @@ body {
 }
 .product__item {
     list-style: none;
-    padding-bottom: 50px;
+    padding: 0 23px 23px;
     
 }
 .card__title {
@@ -204,5 +204,6 @@ body {
 }
 .products__ticker {
     overflow: hidden;
+   
     
 }

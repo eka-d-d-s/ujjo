@@ -177,7 +177,15 @@ body {
 .products__decoration {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    align-items: flex-start;
+    margin-bottom: -100px;
+}
+.products_png_1__l {
+    margin-left: 20px;
+}
+
+.products_png_1__r {
+    margin-right: 20px;
 }
 .card {
     padding: 0 23px 23px;
@@ -195,17 +203,18 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    padding: 0 20px  ;
 }
 .product__item {
-    list-style: none;
-    padding: 0 23px 23px;
-    
+    list-style: none;   
 }
 .card__title {
     margin: 0;
 }
 .products__ticker {
-    overflow: hidden;
-   
-    
+    overflow: hidden;   
+}
+.products_bottom_img {
+    padding: 20px 0;
+    text-align: center;
 }

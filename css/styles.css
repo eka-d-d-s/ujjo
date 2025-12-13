@@ -6,7 +6,7 @@ body {
 .container {
   max-width: 1397px;
   width: 100%;
-  padding:0 100px;
+  padding:0 20px;
     margin: 0;
 }
 .header-row {
@@ -181,11 +181,11 @@ body {
     margin-bottom: -100px;
 }
 .products_png_1__l {
-    margin-left: 20px;
+    margin-right: -20px;
 }
 
 .products_png_1__r {
-    margin-right: 20px;
+    margin-left: -20px;
 }
 .card {
     padding: 0 23px 23px;

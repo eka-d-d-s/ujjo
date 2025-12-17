@@ -140,14 +140,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: -100px;
-}
-.products_png_1__l {
-    margin-right: -30px;
-}
-
-.products_png_1__r {
-    margin-left: -30px;
+    padding: 0 40px;
+    margin: 0 -20px -100px;
 }
 .card {
     padding: 0 23px 23px;

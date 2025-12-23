@@ -321,7 +321,7 @@ input {
     .card {
         background-size: contain;
         padding: 70px 10px 10px;
-        min-height: 600px;
+        min-height: 550px;
         justify-content: center;
     }
 }
@@ -436,5 +436,42 @@ input {
         background: url(../img/back_product_img.png);
         background-repeat: no-repeat;
         background-size: cover;
+  }
+  .hero__ticker {
+        display: none;
+  }
+  .img-hero-left {
+        width: 100%;
+  }
+  .hero-row {
+    flex-direction: column;
+  }
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+  .products__border {
+    gap: 10px;
+    padding: 10px 10px;
+  }
+  .skarpion__left,
+  .skarpion__right {
+    width: 150px;
+    height: auto;
+  }
+  .hero-right-desc {
+    max-width: inherit;
+    border-top: 1px solid;
+  }
+  .logo-big {
+    border: none;
+  }
+ 
+}
+@media (max-width: 390px) {
+     .skarpion__left,
+  .skarpion__right {
+    width: 150px;
+    height: auto;
   }
 }

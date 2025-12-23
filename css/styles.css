@@ -287,6 +287,9 @@ input {
     text-align: center;
     text-decoration: none;
 }
+#burger-toggle {
+  display: none;
+}
 @media (max-width: 1300px){
     * {
     box-sizing: border-box;
@@ -391,23 +394,23 @@ input {
     .burger-logo {
         display: block;
     }
-    .menu-burger {
-        display: block;
-        left: 0;
-        right: 0;
+    ul {
+        height: 100%;
+        position: fixed;
+        list-style: none;
+        margin: 0;
         padding-top: 100px;
         z-index: -1;
         flex-direction: column;
         text-align: center;
-        left: -100vh;
-        right: 100vh;
-        list-style: none;
-        margin: 0;
+        left: -100vW;
+        right: 100vW;
+        
     }
     .menu-link {
         font-size: 24px;
     }
-    #burger-toggle:checked ~ ul {
+    #burger-toggle:checked~.menu-burger {
         top: 524px;
         bottom: 0;
         transition: .5s;
@@ -469,8 +472,8 @@ input {
  
 }
 @media (max-width: 390px) {
-     .skarpion__left,
-  .skarpion__right {
+    .skarpion__left,
+    .skarpion__right {
     width: 150px;
     height: auto;
   }

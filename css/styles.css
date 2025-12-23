@@ -323,19 +323,33 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         padding:135px 148px ;
+        box-sizing: initial;
     }
+    .card__title {
+        font-size: 18px;
+    }
+    .card__taste {
+        font-size: 14px;
+    }
+    
 }
 @media (max-width: 790px) {
     .hero-right-desc,
     .products__title,
-    .story__title,
-    .card__title {
-    font-size:23px ;
+    .story__title {
+        font-size:23px ;
   }
    .banner__img {
-    margin-top: ;
+        margin-top: ;
   }
   .card {
-    
+        background: none;
+        padding: 10px 10px 50px;
+        justify-content: flex-end;
+  }
+  .products__list {
+        background: url(../img/back_product_img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
   }
 }

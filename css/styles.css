@@ -515,13 +515,19 @@ label {
 
     .card {
         background: url(../img/back_product_img.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
+        background-position: bottom center;
+        min-height: 500px;
     }
     .card__img {
         border-radius: 10px;
-        width: 95%;
+        width: 90%;
   
+}
+.products__list {
+    gap: 26px;
+    padding: 0;
 }
     .hero-right-desc, 
     .products__title, 
@@ -529,7 +535,7 @@ label {
         font-size: 16px;
     }
     .story__right {
-        padding: 100px 10px;
+        padding: 105px 60px;
         width: 100%;
         box-sizing: border-box;
     }

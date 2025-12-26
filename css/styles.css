@@ -40,6 +40,10 @@ body {
 .burger-logo {
     display: none;
 }
+.menu-row {
+    display: flex;
+    gap: 50px;
+}
 .menu {
     padding: 0;
     margin: 0;
@@ -254,7 +258,7 @@ label {
     text-align: center;
 }
 .ticker__bottom_row {
-    border-bottom: 1px solid #000;
+    border: 1px solid #000;
     border-top: none;
     overflow: hidden;
     padding: 26px 0;
@@ -293,7 +297,7 @@ label {
     }
 
     .menu {
-        gap: 30px;
+        gap: 50px;
     }
    .products__decoration {
     display: none;
@@ -352,6 +356,9 @@ label {
         flex-direction: column;
         gap: 20px;
     } 
+    .logo {
+        display: none;
+    }
     .menu {
         display: none;
     }
@@ -412,15 +419,8 @@ label {
     
     .menu-link {
         font-size: 24px;
-    }
-    /* #burger-toggle:checked~.menu-burger {
-        top: 524px;
-        bottom: 0;
-        transition: .5s;
-
-    } */
-     
-        #burger-toggle:checked~.menu-burger {
+    }     
+    #burger-toggle:checked~.menu-burger {
         left: 0;
         right: 0;
     }
@@ -505,7 +505,7 @@ label {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
-        min-height: 500px;
+        min-height: 510px;
     }
     .footer__content {
         flex-direction: column;
@@ -522,7 +522,7 @@ label {
   }
     .card__img {
         border-radius: 10px;
-        width: 90%;
+        width: 85%;
   
 }
 .products__list {
@@ -535,7 +535,7 @@ label {
         font-size: 16px;
     }
     .story__right {
-        padding: 105px 60px;
+        padding: 150px 30px;
         width: 100%;
         box-sizing: border-box;
     }

@@ -13,6 +13,7 @@ body {
 .header__block {
     padding:26px 40px;
     border: 1px solid #000;
+    border-bottom: none;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -82,6 +83,7 @@ label {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    border-right: 1px solid;
 }
 .hero__ticker {
   overflow: hidden;
@@ -109,7 +111,6 @@ label {
     }
 }
 .hero-right {
-   border-left: 1px solid #000;
    width: 50%; 
 }
 .hero-right-desc {
@@ -137,7 +138,8 @@ label {
     border-top:  1px solid #000;
 }
 .products__border {
-    border: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
     display: flex;
     gap: 51px;
     align-items: center;
@@ -223,11 +225,11 @@ label {
     
 }
 .story__left {
-    border-right: 1px solid #000;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     box-sizing: content-box;
+    border-right: 1px solid;
 }
 .story__right {
     width: 50%;
@@ -287,6 +289,7 @@ label {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
+    color: #000;
 }
 #burger-toggle {
   display: none;
@@ -541,6 +544,9 @@ label {
     }
     .banner__img {
         margin-top: -30px;
+    }
+    .footer__content {
+        padding: 20px 0;
     }
    
 }   
